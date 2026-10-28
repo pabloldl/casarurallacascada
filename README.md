@@ -1,56 +1,41 @@
-# Casa Rural La Cascada El Bosque
+﻿# Casa Rural La Cascada · Rediseño local
 
-Web estática independiente en HTML5, CSS3 y JavaScript vanilla. Abrir `index.html` con Live Server de VS Code. Sin instalación, compilación, dependencias de ejecución, servicios de reservas ni configuración de alojamiento.
+HTML5, CSS3 y JavaScript vanilla. Abrir index.html con Live Server. Sin compilación ni despliegue.
 
-## Identidad y contenido
+## Diseño y contenido
+Portada fotográfica de la vivienda, crema y verde oliva, tipografías locales Gelasio y Karla, presentación de la casa, composición fotográfica asimétrica, detalles exteriores, entorno y consulta telefónica. Se han conservado todos los originales.
 
-Concepto: un umbral hacia el paisaje. Marfil, piedra, oliva, tierra y bosque profundo. Ventana horizontal sin texto superpuesto; transición a una panorámica real; refugio tipográfico en un marco de líneas; ribera en formato vertical; invitación centrada con contacto directo. Marca geométrica propia inspirada en un vano arquitectónico.
+Las nueve fotografías aportadas se encuentran realmente en `img/`, no en `imgs/`. Se inspeccionaron visualmente juntas antes del rediseño:
 
-Datos suministrados: Casa Rural La Cascada El Bosque; Camino de La Torrecilla s/n, 11670 El Bosque, Cádiz; 956 727 057 (`tel:+34956727057`). No se han aportado fotografías autorizadas de la propiedad. Ninguna imagen muestra el alojamiento, sus instalaciones o sus vistas. No se han añadido servicios, aforo, habitaciones, precios, disponibilidad, opiniones ni registro turístico.
-
-Google Maps abre una búsqueda por nombre y dirección confirmada, no una coordenada ni una ficha verificada. El botón de copia guarda `956727057`; si la API no está disponible o se deniega, muestra y selecciona un campo para copia manual. El año se actualiza con JavaScript y tiene 2026 como valor inicial.
-
-SEO: título y descripción locales, Open Graph, un h1 y datos estructurados LodgingBusiness limitados al nombre, teléfono y dirección. No se inventa dominio canónico. `og:image` tiene ruta relativa para esta entrega local; el dominio definitivo no ha sido proporcionado.
-
-## Auditoría previa de originalidad
-
-Se inspeccionaron el HTML, los estilos y las estructuras de las landings presentes en el directorio. La comparación fue de código; no se realizó una revisión visual en navegador de todas las webs anteriores.
-
-| Referencia | Patrones encontrados | Decisión para La Cascada |
+| Archivo | Resolución | Contenido y decisión |
 | --- | --- | --- |
-| La Casita de El Bosque | Serif Georgia, navegación de secciones, hero comercial, servicios y galería | Ventana de paisaje sin superposición; sin servicios ni galería comercial |
-| La Casa del Muro | Newsreader y Jakarta, menú adaptable, hero dividido, filtros de galería | Gelasio y Karla; acceso único a contacto, sin menú desplegable ni filtros |
-| Isaac Phoenix | Cormorant y Outfit, fotolibro, secuencia editorial, acciones con flechas | Recorrido espacial, marco arquitectónico y acciones con un pequeño vano |
-| Realty Canoe | Bodoni y Manrope, índice lateral y capítulos numerados | Navegación inicial horizontal, sin capítulos numerados, paginación ni índice |
-| Guadalinfo | Figtree y Atkinson, gráficos de conexiones y bloques participativos | Composición sobria, sin adhesivos, tarjetas ni ilustraciones de producto |
-| Taxi, informática y demás landings | Acciones rectangulares, flechas, bloques de servicios, mosaicos, footers de varias columnas | Acciones con un canto lateral, umbral animado, firma centrada y contacto sin tarjetas |
+| 371896156.jpg | 1024 × 768 | Jardín y fachada, luz de día y composición amplia: portada. |
+| 237841843.jpg | 1024 × 683 | Entrada y fachada albero, luz suave: presentación. |
+| 237842339.jpg | 1024 × 683 | Mesa entre vegetación, luz filtrada: galería principal. |
+| 371896148.jpg | 1024 × 768 | Piscina elevada, luz directa: galería. No se promete disponibilidad ni temporada. |
+| 79564071.jpg | 1024 × 768 | Barbacoa de obra, luz directa: galería. |
+| 237843583.jpg | 1024 × 683 | Rosa y fachada, detalle con fondo desenfocado: galería. |
+| 237841730.jpg | 1024 × 683 | Letrero y entrada, sombras y cielo: visor adicional. |
+| 237842988.jpg | 1024 × 683 | Macetas y placa rural, encuadre de detalle: visor adicional. |
+| 79568879.jpg | 576 × 768 | Cascada vertical: no utilizada porque su relación exacta con la propiedad no está documentada. |
 
-Se revisaron también los sistemas tipográficos del resto del conjunto: Archivo Narrow, Literata, Source Sans, DM Mono, Barlow, Chakra, Geist, Fraunces, Hanken, Space, Plex, Arial y las familias anteriores. Gelasio y Karla no aparecían en los estilos de los proyectos revisados. No se ha copiado ningún componente, hoja de estilos ni script de otra landing.
+Todas tienen resolución moderada; se muestran sin deformación y el visor permite verlas completas. El hero y mosaico recortan con object-fit: cover. No se han generado fotografías ni añadido interiores ficticios.
 
-El movimiento utiliza apertura lateral muy leve de los encuadres, asentamiento de escala y cambio pausado de opacidad de títulos, sin desplazamiento vertical repetido. Aunque el revelado de imágenes es un recurso compartido por muchas webs, aquí se implementa con proporciones, duración y composición propias. `prefers-reduced-motion` elimina las transiciones y el scroll suave. Sin JavaScript, contenido e imágenes permanecen visibles.
+## Contacto y fuentes
+Teléfono: +34 956 727 057. Dirección: Camino de La Torrecilla s/n, 11670 El Bosque, Cádiz. Coinciden con la ficha consultada el 28 de octubre de 2026: https://www.google.cl/travel/hotels/entity/ChoIqaiSvIz08uufARoNL2cvMTFjczMxcjFqMRAB
 
-## Fotografías: fuentes y licencias
+La consulta se realiza mediante enlaces tel:. Maps abre una búsqueda por nombre y dirección; no se afirma que sea una ficha oficial. No se han añadido WhatsApp, correo, precios, calendario, formulario, capacidad ni servicios no documentados. Jardín, mobiliario y barbacoa se describen a partir de las fotografías aportadas.
 
-Todos los recursos finales están en `img/`. Descargados de versiones de Wikimedia Commons a 1920 px; convertidos localmente a WebP con calidad 0,84. La ribera se redimensionó a 1440 px. Los recortes visibles se realizan con `object-fit: cover`; no se añadió ni generó contenido. Las fotografías son diferentes entre sí y no se han tomado de los otros proyectos.
+Permiso de publicación de las nueve fotografías aportadas: confirmado expresamente por el usuario el 28 de octubre de 2026. Esta entrega permanece local, sin despliegue.
 
-| Archivo | Fotografía y autor | Licencia elegida |
-| --- | --- | --- |
-| `img/umbral.webp` | [Río Majaceite - P1460097.jpg](https://commons.wikimedia.org/wiki/File:R%C3%ADo_Majaceite_-_P1460097.jpg), El Pantera, 7 de marzo de 2020; río a su paso por El Bosque | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| `img/paisaje.webp` | [El Bosque Lomo de Enmedio.JPG](https://commons.wikimedia.org/wiki/File:El_Bosque_Lomo_de_Enmedio.JPG), Antonio Acosta Fernández | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
-| `img/ribera.webp` | [Río Majaceite - P1460074.jpg](https://commons.wikimedia.org/wiki/File:R%C3%ADo_Majaceite_-_P1460074.jpg), El Pantera, 7 de marzo de 2020 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+Panorámica del entorno conservada: Antonio Acosta Fernández, https://commons.wikimedia.org/wiki/File:El_Bosque_Lomo_de_Enmedio.JPG — CC BY 3.0, https://creativecommons.org/licenses/by/3.0/ . Convertida a WebP, redimensionada y recortada en pantalla. Crédito visible en el pie. Las demás imágenes antiguas se conservan sin utilizarse.
 
-Las versiones adaptadas de las fotografías del río conservan CC BY-SA 4.0. La panorámica conserva CC BY 3.0. La autoría, las fuentes, las modificaciones y las licencias se indican también en el desplegable de créditos del footer. Los autores no están asociados con el establecimiento ni avalan esta web. Los pies de fotografía distinguen el entorno de la propiedad.
+Tipografías locales con licencias SIL OFL en css/.
 
-## Tipografías
+## Interacción y verificación
+Visor nativo dialog con ocho fotos, anterior/siguiente, flechas de teclado, Escape, botón de cierre, retorno del foco, bloqueo del fondo y gestos horizontales. Sin JavaScript las fotografías principales siguen siendo enlaces a los originales y la navegación permanece visible. Movimiento reducido respetado.
 
-Gelasio Regular y Karla Regular, servidas localmente desde `css/`. Fuente: Google Fonts ([Gelasio](https://fonts.google.com/specimen/Gelasio), [Karla](https://fonts.google.com/specimen/Karla)). Licencia SIL Open Font License 1.1 incluida en `css/Gelasio-OFL.txt` y `css/Karla-OFL.txt`. Sin peticiones de fuentes a terceros durante la visita.
+Comprobaciones ejecutadas con Chrome headless y CDP: 375, 768, 1440 y 1920 px sin desbordamiento horizontal ni imágenes rotas; ocho originales del visor cargados; apertura, avance, vuelta circular, Escape, retorno del foco, desbloqueo del fondo; apertura/cierre del menú móvil; anclas y formato tel:; movimiento reducido; navegación y fotografía visibles sin JavaScript; sin excepciones JavaScript. node --check correcto. Capturas de 375 y 1440 revisadas visualmente. Resultados y capturas en .qa/redesign-report.json y .qa/redesign-*.png.
 
-## Accesibilidad y comprobación
+No se ha probado en un iPhone físico, realizado una llamada real ni verificado la atención telefónica. Los enlaces externos se revisaron por destino; no se asegura la respuesta de cada servicio. Los gestos táctiles están implementados pero no se han comprobado en un dispositivo físico. No se modificaron otras webs.
 
-Enlace para saltar al contenido, landmarks semánticos, enlaces y botones nativos, foco visible, textos alternativos, etiquetas de imágenes, anuncio de copia con `role="status"`, copia manual alternativa, enlaces de teléfono y crédito accesibles por teclado. El color tierra se reserva para detalles decorativos; el texto usa bosque u oliva sobre fondos claros.
-
-Capturas y resultados de verificación locales en `.qa/` (excluido por `.gitignore`). Las pruebas usan Chrome headless y su protocolo de depuración, con un servidor local temporal; no forman parte de la web. Consultar `.qa/report.json` para los resultados medidos y `full-375.png`, `full-768.png`, `full-1440.png`, `full-1920.png` para las capturas.
-
-Resultados: cuatro tamaños comprobados sin desbordamiento horizontal, sin imágenes rotas y con ambas fuentes cargadas; capturas completas revisadas visualmente. Copia real al portapapeles comprobada (`956727057`) y alternativa manual seleccionando los nueve dígitos. Anclas internas válidas, tres enlaces `tel:` correctos y consulta de Maps con dirección completa. Sin excepciones JavaScript; `node --check` correcto. Movimiento reducido sin transiciones y con desplazamiento automático; contenido visible al desactivar JavaScript.
-
-No se realiza una llamada telefónica real ni se comprueba la atención del establecimiento. Los enlaces externos se verifican por su destino y formato, sin asegurar el resultado actual de Google Maps. No se ha modificado ninguna otra web ni se ha realizado un despliegue.
